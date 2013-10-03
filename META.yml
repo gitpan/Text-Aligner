@@ -1,23 +1,23 @@
---- #YAML:1.0
-name:               Text-Aligner
-version:            0.07
-abstract:           Align text in columns
+---
+abstract: 'Align text in columns'
 author:
-    - Anno Siegel (siegel@zrz.tu-berlin.de)
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Anno Siegel (siegel@zrz.tu-berlin.de)'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Term::ANSIColor:  2.01
-    Test::More:       0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.78, CPAN::Meta::Converter version 2.132661'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Text-Aligner
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Term::ANSIColor: 2.01
+  Test::More: 0
+version: 0.08
