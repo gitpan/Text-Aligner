@@ -100,7 +100,7 @@ for my $spec ( SPECS ) {
         is( $diag, 'ok');
     }
     for my $init ( STRINGS ) {
-        $ali->_alloc( $init);
+        $ali->alloc( $init);
         for my $str ( STRINGS ) {
             my $res = $ali->_justify( $str);
             my $diag = '';

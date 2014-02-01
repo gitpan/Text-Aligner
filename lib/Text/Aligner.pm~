@@ -8,7 +8,7 @@ use 5.008;
 BEGIN    {
     use Exporter ();
     use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.09';
+    $VERSION     = '0.08';
     @ISA         = qw (Exporter);
     @EXPORT      = qw ();
     @EXPORT_OK   = qw ( align);
@@ -288,22 +288,11 @@ sub _to_max {
 
 ########################################### main pod documentation begin ##
 
-
-1; #this line is important and will help the module return a true value
-
-__END__
-
-=pod
-
-=encoding UTF-8
+=encoding utf8
 
 =head1 NAME
 
-Text::Aligner
-
-=head1 VERSION
-
-version 0.09
+Text::Aligner - module to align text.
 
 =head1 SYNOPSIS
 
@@ -337,10 +326,6 @@ complaint.
 Alignment respects colorizing escape sequences a la Term::ANSICOLOR,
 which means it knows that these sequences don't take up space on
 the screen.
-
-=head1 NAME
-
-Text::Aligner - module to align text.
 
 =head1 ALIGNMENT
 
@@ -461,15 +446,7 @@ perl(1)
 
 Text::Table
 
-=head1 AUTHOR
-
-Shlomi Fish <shlomif@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2002 by Anno Siegel.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
-
 =cut
+
+1; #this line is important and will help the module return a true value
+__END__
