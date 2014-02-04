@@ -19,14 +19,14 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "Text-Aligner",
-  "dist_version" => "0.09",
+  "dist_version" => "0.10",
   "license" => "perl",
   "module_name" => "Text::Aligner",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "Exporter" => 0,
-    "Term::ANSIColor" => 0,
+    "Term::ANSIColor" => "2.02",
     "perl" => "5.008",
     "strict" => 0,
     "vars" => 0,

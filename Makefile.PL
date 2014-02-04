@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Text::Aligner",
   "PREREQ_PM" => {
     "Exporter" => 0,
-    "Term::ANSIColor" => 0,
+    "Term::ANSIColor" => "2.02",
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0
@@ -38,7 +38,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "constant" => 0
   },
-  "VERSION" => "0.09",
+  "VERSION" => "0.10",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -52,7 +52,7 @@ my %FallbackPrereqs = (
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "Module::Build" => "0.3601",
-  "Term::ANSIColor" => 0,
+  "Term::ANSIColor" => "2.02",
   "Test::More" => 0,
   "constant" => 0,
   "strict" => 0,

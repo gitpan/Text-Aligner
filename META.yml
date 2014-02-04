@@ -23,16 +23,16 @@ name: Text-Aligner
 provides:
   Text::Aligner:
     file: lib/Text/Aligner.pm
-    version: 0.09
+    version: 0.10
   Text::Aligner::Auto:
     file: lib/Text/Aligner.pm
-    version: 0.09
+    version: 0.10
   Text::Aligner::MaxKeeper:
     file: lib/Text/Aligner.pm
-    version: 0.09
+    version: 0.10
 requires:
   Exporter: 0
-  Term::ANSIColor: 0
+  Term::ANSIColor: 2.02
   perl: 5.008
   strict: 0
   vars: 0
@@ -40,4 +40,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-Aligner
   repository: https://github.com/shlomif/Text-Aligner.git
-version: 0.09
+version: 0.10

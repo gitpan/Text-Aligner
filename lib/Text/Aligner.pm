@@ -8,7 +8,7 @@ use 5.008;
 BEGIN    {
     use Exporter ();
     use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.09';
+    $VERSION     = '0.10';
     @ISA         = qw (Exporter);
     @EXPORT      = qw ();
     @EXPORT_OK   = qw ( align);
@@ -71,7 +71,7 @@ sub _measure0 {
     ( $p, $w - $p);
 }
 
-use Term::ANSIColor ();
+use Term::ANSIColor 2.02;
 
 # return left and right field widths for an object
 sub _measure {
@@ -303,7 +303,7 @@ Text::Aligner
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 SYNOPSIS
 
@@ -334,7 +334,7 @@ pointed to is aligned instead.  Other references are simply stringified.
 An undefined argument is interpreted as an empty string without
 complaint.
 
-Alignment respects colorizing escape sequences a la Term::ANSICOLOR,
+Alignment respects colorizing escape sequences a la L<Term::ANSIColor>
 which means it knows that these sequences don't take up space on
 the screen.
 
