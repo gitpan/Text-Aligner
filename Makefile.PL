@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Text-Aligner",
   "EXE_FILES" => [],
-  "LICENSE" => "perl",
+  "LICENSE" => "mit",
   "NAME" => "Text::Aligner",
   "PREREQ_PM" => {
     "Exporter" => 0,
@@ -38,7 +38,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "constant" => 0
   },
-  "VERSION" => "0.11",
+  "VERSION" => "0.12",
   "test" => {
     "TESTS" => "t/*.t"
   }

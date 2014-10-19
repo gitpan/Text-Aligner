@@ -1,5 +1,6 @@
 # Text::Aligner - Align text in columns
 package Text::Aligner;
+
 use strict;
 use warnings;
 
@@ -8,7 +9,7 @@ use 5.008;
 BEGIN    {
     use Exporter ();
     use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-    $VERSION     = '0.11';
+    $VERSION     = '0.12';
     @ISA         = qw (Exporter);
     @EXPORT      = qw ();
     @EXPORT_OK   = qw ( align);
@@ -303,7 +304,7 @@ Text::Aligner
 
 =head1 VERSION
 
-version 0.11
+version 0.12
 
 =head1 SYNOPSIS
 
@@ -439,7 +440,7 @@ For internal use.
 
 =head1 BUGS
 
-  None known as of realease, but...
+None known as of release, but...
 
 =head1 AUTHOR
 
@@ -450,7 +451,11 @@ For internal use.
 
 Copyright (c) 2002 Anno Siegel. All rights reserved.
 This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
+it and/or modify it under the terms of the ISC license.
+
+(This program had been licensed under the same terms as Perl itself up to
+version 1.118 released on 2011, and was relicensed by permission of its
+originator).
 
 The full text of the license can be found in the
 LICENSE file included with this module.
@@ -459,7 +464,7 @@ LICENSE file included with this module.
 
 perl(1)
 
-Text::Table
+L<Text::Table> .
 
 =head1 AUTHOR
 
@@ -467,9 +472,10 @@ Shlomi Fish <shlomif@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2002 by Anno Siegel.
+This software is Copyright (c) 2002 by Anno Siegel.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+  The MIT (X11) License
 
 =cut

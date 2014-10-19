@@ -19,8 +19,8 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "Text-Aligner",
-  "dist_version" => "0.11",
-  "license" => "perl",
+  "dist_version" => "0.12",
+  "license" => "mit",
   "module_name" => "Text::Aligner",
   "recommends" => {},
   "recursive_test_files" => 1,

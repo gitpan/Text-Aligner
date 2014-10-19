@@ -14,5 +14,7 @@ t/00-compile.t
 t/01_ini.t
 t/10_Aligner.t
 t/release-cpan-changes.t
+t/release-kwalitee.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+t/release-trailing-space.t
